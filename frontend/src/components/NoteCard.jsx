@@ -1,8 +1,7 @@
 
 function NoteCard({ note, onDelete }) {
 
-    const formattedDate = new Date(note.createdAt)
-        .toLocaleString();
+    const formattedDate = new Date(`${note.createdAt}Z`).toLocaleString();
 
     return (
         <div className="note-card">
