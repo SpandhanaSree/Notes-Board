@@ -14,7 +14,6 @@ import java.util.Map;
 @RestController
 @RequestMapping("/api/notes")
 @CrossOrigin(origins = {
-        "http://localhost:5173",
         "https://notes-board-39asim785-spandhana-work-space.vercel.app"
 })
 public class NoteController {
